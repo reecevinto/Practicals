@@ -1,0 +1,39 @@
+Quick Questions
+Difference between list and tuple:
+A list is mutable (can be changed), whereas a tuple is immutable (cannot be changed).
+
+Naming convention for lists:
+Use descriptive, lowercase names, often plural (e.g., cities, scores).
+
+Good name for a list of cities:
+cities.
+
+Elements in a list:
+A list can store as many elements as memory allows.
+
+True/False: Elements in a list must be of the same type:
+False - Python lists can store mixed data types.
+
+Purpose of len:
+len returns the number of elements in a collection (e.g., lists, strings).
+
+Lists Warmups
+
+Part 1
+Using the list numbers = [10, 20, 40, 81], predict and verify:
+
+numbers[0]: 10
+numbers[-1]: 81
+numbers[3]: 81
+20 in numbers: True
+1 in numbers: False
+numbers[1] + numbers[2]: 60
+len(numbers): 4
+
+Part 2
+Predict the results of modifying and querying numbers:
+
+Change the first element: numbers[0] = 1
+Change the last element: numbers[-1] = 4
+Check if 1 is in the list: 1 in numbers
+Print the second value multiplied by 10: print(numbers[1] * 10)
